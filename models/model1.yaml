@@ -2,8 +2,17 @@ title: model1
 x-stoplight:
   id: tzzr0nfa9ztfp
 type: object
+description: mdole
 properties:
   id:
     type: string
     x-stoplight:
       id: 22g48h46b27i6
+  test1:
+    type: string
+    x-stoplight:
+      id: cqej10c3xrrpf
+  test2:
+    type: string
+    x-stoplight:
+      id: brqcjl2udq4wn
