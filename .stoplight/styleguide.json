@@ -1,0 +1,25 @@
+{
+  "name": "GitNeew",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    "testYm": {
+      "id": "ENKa7OTy2loYKu9Uq8GVS",
+      "given": [],
+      "severity": "error",
+      "then": {
+        "function": ""
+      },
+      "name": "testYm"
+    }
+  },
+  "extendedDefault": false
+}
