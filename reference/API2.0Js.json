@@ -223,6 +223,12 @@
           "name": "rename",
           "in": "path",
           "required": true
+        },
+        {
+          "type": "string",
+          "name": "rename",
+          "in": "path",
+          "required": true
         }
       ],
       "get": {
@@ -234,6 +240,15 @@
           "id": "mssmeoh831xru"
         }
       },
+      "trace": {
+        "summary": "Your TRACE endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "trace-path-rename-time",
+        "x-stoplight": {
+          "id": "c5di3kb66ywcu"
+        }
+      },
       "put": {
         "summary": "Your PUT endpoint",
         "tags": [],
@@ -241,7 +256,30 @@
         "operationId": "put-path-rename-time",
         "x-stoplight": {
           "id": "r4s0q33qdd341"
-        }
+        },
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "test1": {
+                  "type": "boolean",
+                  "x-stoplight": {
+                    "id": "yofg6oq2euuav"
+                  }
+                },
+                "test2": {
+                  "x-stoplight": {
+                    "id": "td2hdn44vcq4r"
+                  },
+                  "enum": []
+                }
+              }
+            }
+          }
+        ]
       }
     }
   },
