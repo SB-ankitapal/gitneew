@@ -209,6 +209,40 @@
           "id": "ffkexx9elbmo4"
         }
       }
+    },
+    "/path/{rename}/time": {
+      "parameters": [
+        {
+          "type": "string",
+          "name": "rename",
+          "in": "path",
+          "required": true
+        },
+        {
+          "type": "string",
+          "name": "rename",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-path-rename-time",
+        "x-stoplight": {
+          "id": "mssmeoh831xru"
+        }
+      },
+      "put": {
+        "summary": "Your PUT endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "put-path-rename-time",
+        "x-stoplight": {
+          "id": "r4s0q33qdd341"
+        }
+      }
     }
   },
   "definitions": {
