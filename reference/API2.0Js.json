@@ -5,7 +5,8 @@
   },
   "info": {
     "title": "API2.0Js",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "testing in the process.."
   },
   "host": "localhost:3000",
   "schemes": [
